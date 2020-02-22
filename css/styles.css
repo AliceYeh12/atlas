@@ -1,0 +1,57 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    width: 330px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h2 {
+    padding-top: 15px;
+    color: darkblue;
+}
+
+input[type=text], input[type=password] {
+    width: 95%;
+    padding: 8px 20px;
+    display: inline-block;
+    border: 2px solid darkblue;
+    box-sizing: border-box;
+  }
+
+.inputLogin {
+    padding-top: 15px;
+    float: left;
+    margin-left: 5px;
+}
+
+#logContent {
+    padding-top: 20px;
+}
+
+#contentsMain {
+    height: 100%;
+    width: 400px;
+    padding-top: 30px;
+    margin: 0 auto;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#liButton {
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 200px;
+}
+
+#sulink {
+    color: crimson;
+}

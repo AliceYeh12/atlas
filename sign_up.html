@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Atlas | Sign Up</title>
+        <link rel="stylesheet" href="sign_up.css">
+        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+        <script src="sign_up.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div id="page">
+            <div id="contentsMain">
+                <img class="logo" src="logo.png">
+                <div id="logContent">
+                    <h2>Sign Up</h2>
+                    <div class="container">
+                        <label for="uname" class="inputLogin"><b>Username</b></label>
+                        <input type="text" name="uname" class="userLogIn" required>
+                    
+                        <label for="psw" class="inputLogin"><b>Password</b></label>
+                        <input type="password" name="psw" class="userLogIn" required>
+                    
+                        <a href="index.html"><button id="liButton" onclick=displayMessage()>Sign Up</button></a>
+                    </div>
+                    <div id="signUpPrompt">
+                        <p id="accountPrompt">Already have an account?</p>
+                        <a href="index.html" id="suLink">Log In</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>

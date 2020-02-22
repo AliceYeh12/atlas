@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <title>Atlas | My Travel Map</title>
+    <link rel="stylesheet" href="map_styles.css">
+    <script src="map.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="contents">
+        <div class="header">
+            <img class="logo" src="logo.png">
+            <h1>My Travel Map</h1>
+        </div>
+        <div id="displayedMap">
+            <div id="journal" class="hidden">
+                <h2>Create a new journal entry: </h2>
+                <div class="inputBox">
+                    <textarea id="dateArea" placeholder="Click to enter date..." rows="1" cols="40"></textarea>
+                </div>
+                <div class="inputBox">
+                    <textarea id="titleArea" placeholder="Click to enter title..." rows="1" cols="80"></textarea>
+                </div>
+                <div class="inputBox">
+                    <textarea id="wordsArea" placeholder="Click to enter text..." rows="5" cols="80"></textarea>
+                </div>
+                <div class="inputBox">
+                    <button id="submit" onclick=saveInfo()>Submit</button>
+                </div>
+            </div>
+            <!--The div element for the map -->
+            <div id="map"></div>
+            <div id="displayBox" class="hidden">
+                <div id="userText">
+                    <div id="displayDate">
+                        <h3 id="date">Date</h2>
+                    </div>
+                    <div id="displayTitle">
+                        <h3 id="title">Title</h2>
+                    </div>
+                    <div id="displayWords">
+                        <p id="words"></p>
+                    </div>
+                </div>
+                <button id="doneButton" onclick=hideJournalInfo()>Done</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=[API-KEY]&callback=initMap">
+    </script>
+
+</html>
