@@ -9,4 +9,4 @@ Users can sign up or log in (work in progress) to the site and be directed to th
 - Improving the UI and design.
 
 ## Tools
-This website uses Google Maps API. An API key will need to be generated to enable the map. The images seen in the demo video will also need to be downloaded.
+This website uses Google Maps API. An API key will need to be generated to enable the map. The logo was created using LogoMakr. The images seen in the demo video will also need to be downloaded.
